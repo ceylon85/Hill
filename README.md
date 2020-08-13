@@ -3,7 +3,7 @@
 # 
 
 Link to 
-[Demo](https://ceylon85.github.io/Hill)
+[Demo](https://ceylon85.github.io/Hill/)
 ## 1. 곡선으로 언덕 그리기   
 #### hill.js
 > 일정간격을 가진 좌표값에 곡선을 줘서 언덕처럼 보이게 만든다.
