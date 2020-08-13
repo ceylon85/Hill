@@ -1,6 +1,7 @@
 import { Sheep } from "./sheep.js";
 
 export class SheepController {
+  //양 이미지 가져오기
   constructor() {
     this.img = new Image();
     this.img.onload = () => {
@@ -18,16 +19,16 @@ export class SheepController {
     this.stageWidth = stageWidth;
     this.stageHeight = stageHeight;
   }
-
+  //로드되면 양을 추가
   loaded() {
     this.isLoaded = true;
     this.addSheep();
   }
-
+  //import 한 sheep.js를 가져온다.
   addSheep() {
     this.items.push(new Sheep(this.img, this.stageWidth),);
   }
-
+  //양을 그려준다.
   draw(ctx, t, dots) {
     if (this.isLoaded) {
       this.cur += 1;
