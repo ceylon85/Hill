@@ -1,7 +1,7 @@
-# hill
-![hill](https://user-images.githubusercontent.com/45006553/90096516-6fcbf500-dd6e-11ea-938e-52532408d202.gif)
+# 언덕을 올라가는 양떼
+![Hill](https://user-images.githubusercontent.com/45006553/90096516-6fcbf500-dd6e-11ea-938e-52532408d202.gif)
 # 
-# 언덕을 올라가는 양
+
 Link to 
 [Demo](https://ceylon85.github.io/Hill)
 ## 1. 곡선으로 언덕 그리기   
